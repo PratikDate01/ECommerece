@@ -1,0 +1,135 @@
+/* ========================= */
+/* 🌟 Overall Page Styling */
+/* ========================= */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* ========================= */
+/* 🌟 Navigation Styling */
+/* ========================= */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* ========================= */
+/* 🌟 Button Styling */
+/* ========================= */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #4CAF50;  /* Green background */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: #45a049;  /* Darker green on hover */
+    transform: translateY(-2px);  /* Slight lift effect */
+}
+
+/* Button Container */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* ========================= */
+/* 🌟 Product Layout */
+/* ========================= */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Individual Product Card */
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background: #f9f9f9;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.product:hover {
+    box-shadow: 0 0 15px #aaa;
+    transform: scale(1.05);
+}
+
+/* ========================= */
+/* 🌟 Product Image Styling */
+/* ========================= */
+.product img {
+    width: 200px;        /* Set a fixed width */
+    height: auto;         /* Maintain aspect ratio */
+    max-height: 200px;    /* Set a maximum height */
+    object-fit: cover;    /* Ensure images fit within the container */
+    border-radius: 10px;  /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add subtle shadow */
+    transition: transform 0.3s ease;  /* Smooth hover effect */
+}
+
+/* Hover effect to make images interactive */
+.product img:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+}
+
+/* ========================= */
+/* 🌟 Form Container Styling */
+/* ========================= */
+.form-container {
+    width: 400px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+}
+
+/* ========================= */
+/* 🌟 Footer Styling */
+/* ========================= */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
